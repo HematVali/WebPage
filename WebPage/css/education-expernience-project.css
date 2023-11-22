@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Kanit&family=Nabla&family=Share+Tech+Mono&display=swap');
+/*This is the main body for the code*/
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("./IMG/backgroun1.jpg");
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/*This is the first part and will be the header*/
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgb(242,243,247);
+    color: #b59326;
+}
+
+.img1{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    height: 3em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.basic-div{
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.ul1{
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    padding-right: 2em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+a{
+    color: #b59326;
+    text-decoration: none;
+    font-family: 'Beth Ellen', cursive;
+}
+
+a:hover{
+    color: gold;
+}
+
+/*This is part of the middle part which will contain experience and projects*/
+h1{
+    font-size: 2em;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h5{
+    margin-top: 1em;
+    color: #b59326;
+    font-size: 2em;
+    margin-left: 1em;
+    border-bottom: 0.2em solid#b59326;
+}
+
+.Experience{
+    margin-left: 5em;
+    margin-right: 1.5em;
+}
+
+.Projects{
+    margin-left: 1.5em;
+    margin-right: 6em;
+}
+
+/*This will be part of the final stage which will be the education part*/
+
+table {
+    margin-top: 1.5em;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+  
+td{
+    text-align: left;
+    width: 35em;
+    padding: 0.2em;
+    font-size: 0.9em;
+}
+
+.td1{
+    border-left: 0.2em solid#b59326;
+}
+
+th{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 1.2em;
+    text-align: left;
+    width: 35em;
+    padding: 0.2em;
+}
+
+.th1{
+    border-left: 0.2em solid#b59326;
+}
+
+
+.highschool{
+    border: 0.2em solid#b59326;
+}
+
+.Sixth-Form{
+    border: 0.2em solid#b59326;
+}
+
+.University{
+    border: 0.2em solid#b59326;
+}
+
+.flexbox-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+li{
+    font-size: 1em;
+    margin-left: 2em;
+    margin-right: 1em;
+    font-family: 'Nabla', cursive;
+}
+
+h2{
+    font-size: 1em;
+    color: #b59326;
+    font-family: 'Share Tech Mono', monospace;
+}

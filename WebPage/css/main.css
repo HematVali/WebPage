@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Kanit&family=Nabla&family=Share+Tech+Mono&display=swap');
+/*main body of the file*/
+html{
+    height: 100%;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("./IMG/backgroun1.jpg");
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/*these next styles will all be used in the header*/
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgb(242,243,247);
+    color: #b59326;
+}
+
+.flexbox-container{
+    display: flex;
+    flex: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    height: 3em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.basic-div{
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    padding-right: 2em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+a{
+    color: #b59326;
+    text-decoration: none;
+    font-family: 'Beth Ellen', cursive;
+}
+
+a:hover{
+    color: gold;
+}
+
+/*this next style will be the middle part of my page which will contain most of the page*/
+.middle{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    margin-top: 1.5em;
+    background-color: rgb(242,243,247);
+    border: 0.1em solid #b59326;
+    height: 2em;
+    width: 5em;
+    border-radius: 4em;
+    font-family: 'Nabla', cursive;
+    font-size: 2em;
+}
+
+.img2{
+    width: 9em;
+    height: 9em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+h2{
+    font-size: 5em;
+    color: #b59326;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+/*this next part will be the final part of my first page which will contain the links*/
+.img_mix{
+    padding-right: 8em;
+    padding-left: 8em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+article{
+    height: 100%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.logo{
+    width: 4em;
+    height: 4em;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Kanit&family=Nabla&family=Share+Tech+Mono&display=swap');
+    
+/*This is the main body for the code*/
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("./IMG/backgroun1.jpg");
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/*these next styles will all be used in the header*/
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgb(242,243,247);
+    color: #b59326;
+}
+
+.flexbox-container{
+    display: flex;
+    flex: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    height: 3em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.basic-div{
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    padding-right: 2em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+a{
+    color: #b59326;
+    text-decoration: none;
+    font-family: 'Beth Ellen', cursive;
+}
+
+a:hover{
+    color: gold;
+}
+
+
+/*This is the middle part that will contain about me part*/
+h1{
+    font-size: 2em;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.p1{
+    font-size: 0.9em;
+    font-family: 'Beth Ellen', cursive;
+    padding-top: 2em;
+}
+
+.img2{
+    width: 13em;
+    height: 20em;
+    margin-left: 5em;
+    margin-bottom: 0.4em;
+}
+
+figure{
+    margin-top: 2em;
+    margin-right: 15em;
+    width: 15em;
+    height: 22.5em;
+}
+
+.myself{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+
+/*This is the last part that will contain skills part*/
+h6{
+    font-size: 2.5em;
+    border-bottom: 0.2em solid#b59326; 
+    color: #b59326;
+    font-family: 'Kanit', sans-serif; 
+    margin-bottom: 1em;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 1.2em;
+}
+  
+td, th{
+    border: 0.15em solid black;
+    text-align: left;
+    width: 35em;
+    padding: 0.2em;
+}
+
+th{
+    background-color: #b59326;
+}
+
+.skills{
+    margin-top: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+h2{
+    font-size: 2.5em;
+    border-bottom: 0.2em solid#b59326; 
+    color: #b59326;
+    font-family: 'Kanit', sans-serif; 
+}

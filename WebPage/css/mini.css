@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Kanit&family=Nabla&family=Share+Tech+Mono&display=swap');
+
+html{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgb(242,243,247);
+    color: #b59326;
+}
+
+.flexbox-container{
+    display: flex;
+    flex: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    height: 3em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.img2{
+    width: 9em;
+    height: 9em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.basic-div{
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    padding-right: 2em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.img_mix{
+    padding-right: 8em;
+    padding-left: 8em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("../IMG/backgroun1.jpg");
+    height: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+}
+
+article{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    color: #b59326;
+    text-decoration: none;
+    font-family: 'Beth Ellen', cursive;
+}
+
+a:hover{
+    color: gold;
+}
+
+h2{
+    font-size: 5em;
+    color: #b59326;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1{
+    font-size: 2em;
+}
+
+button{
+    margin-top: 1.5em;
+    background-color: rgb(242,243,247);
+    border: 0.1em solid #b59326;
+    height: 2em;
+    width: 5em;
+    border-radius: 4em;
+    font-family: 'Nabla', cursive;
+    font-size: 2em;
+}
+
+.logo{
+    width: 4em;
+    height: 4em;
+}

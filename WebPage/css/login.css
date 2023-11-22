@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Kanit&family=Nabla&family=Share+Tech+Mono&display=swap');
+
+/*main body of the code*/
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../IMG/backgroun1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    height: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*the following is part of the header at the top*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242,243,247);
+    color: #b59326;
+    width: 90%;
+    margin-top: 1em;
+}
+
+img{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    height: 3em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.basic-div{
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+a{
+    color: #b59326;
+    text-decoration: none;
+    font-family: 'Beth Ellen', cursive;
+}
+
+ul{
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    padding-right: 2em;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+/*the following is part of the actual login system*/
+.aside_login{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 13em;
+    border: 0.2em;
+    border-radius: 2em;
+    border-style:solid;
+    border-color: rgb(255,210,89);
+    color: rgb(255,210,89);
+
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border: 0.2em;
+    border-style:solid;
+    border-color: gold;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    padding-right: 3em;
+}
+
+h1{
+    margin-top: 0.4em;
+    font-size: 2em;
+    margin-bottom: 0.4em;
+}
+
+.button{
+    color: gold;
+    padding-right: 3.5em;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    width: 3em;
+    height: 1.3em;
+    background-color: rgb(242,243,247);
+    border: 0.1em solid gold;
+    font-family: arial, sans-serif;
+}
